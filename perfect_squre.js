@@ -32,3 +32,6 @@ var numSquares = function (n) {
     }
     return a[n];
 };  
+
+let n = 45;
+console.log(numSquares(n));

@@ -36,3 +36,6 @@ var firstUniqChar = function(s) {
     }
     return -1;
 };
+
+let s = "oppo";
+console.log(firstUniqChar(s));   // -1

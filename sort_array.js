@@ -23,3 +23,7 @@
 var sortArray = function(nums) {
     return nums.sort((a,b)=>a-b);
 };
+
+// let nums = [5,6,2,1,3,9,0];
+// let r = sortArray(nums);
+// console.log(r);

@@ -38,3 +38,5 @@ var reverseWords = function(s) {
     
     return reversString;
 };
+let s = '   My Name Is Dhaval Solanki   ';
+console.log(reverseWords(s));

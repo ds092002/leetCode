@@ -34,4 +34,7 @@ var reverse = function(x) {
     const result = sign * rev;
     if (result > 2 ** 31 - 1 || result < -(2 ** 31)) return 0;
     return result;
-  }
+  };
+
+  let x = 321446
+  console.log(reverse(x));

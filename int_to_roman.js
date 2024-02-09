@@ -68,3 +68,6 @@ var intToRoman = function(num) {
     }
     return res;
   };
+
+  let x = 7
+  console.log(intToRoman(x));
